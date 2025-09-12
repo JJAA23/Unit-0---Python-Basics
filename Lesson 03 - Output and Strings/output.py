@@ -8,6 +8,7 @@
 # TODO: Convert these JavaScript console.log statements to Python print statements
 # JavaScript: console.log("Hello, World!");
 # Python: 
+print("Hello World")
 
 
 # JavaScript: console.log("Welcome to programming!");
@@ -17,7 +18,7 @@
 # TODO: Convert this JavaScript output with multiple items
 # JavaScript: console.log("Name:", "Alex", "Age:", 16);
 # Python: 
-
+print("Name:", 'Alex', "Age", 16)
 
 # ========================================
 # PART 2: String Concatenation Practice
@@ -29,12 +30,16 @@ your_name = "Your Name Here"  # TODO: Change this to your actual name
 
 # JavaScript: console.log("Hello" + name);
 # Python: 
-
+name = "Jared Diamond"
+grade = 10
+print("Hello, " + name)
+# print("I am in grade" + grade) DOESNT WORK TWIN
+print("I am in grade", grade) #this works now twin
 
 # JavaScript: console.log("Hello" + " " + name);
 # Python: 
-
-
+print(f"Hello {name}")
+print(f"{name} will be in {grade + 1}")
 # TODO: Convert this JavaScript template literal to Python f-string
 # JavaScript: console.log(`Hello ${name}!`);
 # Python: 
@@ -56,7 +61,7 @@ your_name = "Your Name Here"  # TODO: Change this to your actual name
 
 # JavaScript: console.log("Hi! ".repeat(3));
 # Python: 
-
+print("=" * 40)
 
 # TODO: Create a border pattern (much easier in Python!)
 # JavaScript: console.log("=".repeat(25));
@@ -71,7 +76,7 @@ your_name = "Your Name Here"  # TODO: Change this to your actual name
 
 # JavaScript: console.log('She said "Good morning!"');
 # Python: 
-
+print('She said "Good morning!"')
 
 # JavaScript: console.log("It's a beautiful day!");
 # Python: 
